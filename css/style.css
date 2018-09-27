@@ -4,6 +4,8 @@
 	margin: 0;
 	padding: 0;
 	font-family: Roboto, helvetica;
+	
+
 }
 
 /* Main width*/
@@ -81,7 +83,7 @@ background-color: #ff1744;    /*using active here (not working)*/
 /*Title-text*/
 .title-text {
 
-    position: absolute;
+	    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%); /*Positioning*/
@@ -131,21 +133,14 @@ padding-bottom: 35px;
 
 /*Form*/
 
-.register
-{
-	float: left;
-	width: 30%;
-	margin-left: 10%;
-}
-
 #reg h5 
 {
-	
+	margin-left: 10%
+
 }
 
 #reg p {
-	/* width: 30%; */
-
+	width: 30%;
 }
 
 
@@ -187,10 +182,6 @@ input[type=submit]:hover {
 .footer {
 
 	background-color: orange;
-	clear: both;
-	padding: 10px;
-	margin-top: 10px;
-	text-align: center
 
 }
 .footer p{
